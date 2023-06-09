@@ -11,7 +11,7 @@ function calculaDistancia(){
     let y1 = Number(inputY.value);
     let y2 = Number(inputY2.value);
 
-    let distancia = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1));
+    let distancia = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
     h2Resultado.innerHTML = "A distancia entre os pontos é: " +distancia.toFixed(2);
 }
